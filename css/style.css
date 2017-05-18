@@ -1,0 +1,328 @@
+/****************************************************************
+Main body styling
+****************************************************************/
+
+body{
+  background-attachment: fixed;
+  background-image: url("../images/saleshop-back.JPG");
+}
+
+.main-container{
+  background-color: #fff;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  max-width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px !important;
+}
+
+
+/****************************************************************
+      Styling top search bar
+****************************************************************/
+
+.content-padding{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content-padding .search_form .search{
+  border-radius: 40px !important;
+  background: url("../images/search.png");
+  background-size: 7px 7px;
+  background-repeat: no-repeat;
+  padding-left:30px;
+}
+
+.right-pane-list{
+  font-size: 10px;
+  text-align: right;
+  padding-right: 0px !important;
+}
+
+/****************************************************************
+      Styling navigation bar
+****************************************************************/
+
+.navbar{
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:10px;
+  max-height: 100vh !important;
+  margin-bottom: 0px !important;
+  border-bottom: thick solid #d70004;
+
+}
+.navbar-brand {
+    padding-top: 5px !important;
+}
+
+.navbar ul li a{
+  color: #000 !important;
+  background-color: transparent !important;
+}
+
+.navbar ul .active a{
+  color: #fff !important;
+  background-color: #d70004 !important;
+}
+
+.navbar ul li a:hover{
+  color: #fff !important;
+  background-color: #d70004 !important;
+}
+
+/****************************************************************
+      Styling slider section
+****************************************************************/
+.item{
+  height: 300px;
+}
+.item img{
+  width:100%;
+}
+.carousel-inner{
+  -webkit-box-shadow: 0px 15px 14px -9px rgba(0,0,0,0.61);
+-moz-box-shadow: 0px 15px 14px -9px rgba(0,0,0,0.61);
+box-shadow: 0px 15px 14px -9px rgba(0,0,0,0.61);
+}
+.carousel-control{
+  opacity: 1 !important;
+  color: #fff !important;
+  background-image: none !important;
+  width: 2% !important;
+}
+.glyphicon{
+  background-color: #000 !important;
+  font-size: 30px !important;
+}
+.carousel-control:hover{
+  background-color: transparent !important;
+  background-image: none !important
+  opacity: 0 !important;
+}
+.carousel-indicators li {
+    background-color : #444 !important;
+    border: thick solid #444 !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators .active {
+    background-color : transparent !important;
+    border: thin solid #444 !important;
+}
+
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;left:0;
+    z-index:1;
+}
+.jumbotron {position:relative;padding:50px; height: 100vh !important;}
+.jumbotron .container {
+  z-index:2;
+  position:relative;
+}
+
+.jumbotron-billboard .img-1{
+  background: #000 url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/grey-light-smooth-moving-waves-background-video-animation-hd-1920x1080_vjkea4zve__S0000.jpg") center center;
+}
+.jumbotron-billboard .img-2{
+  background: #000 url("http://allswalls.com/images/grey-curves-wallpaper-1.jpg") center center;
+}
+.jumbotron-billboard .img-3{
+  background: #000 url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-gray-solid-color-background.jpg") center center;
+}
+.jumbotron-billboard .img-4{
+  background: #000 url("https://s-media-cache-ak0.pinimg.com/originals/59/7e/f5/597ef5f26adfcf185ca244a61f52ef2a.jpg") center center;
+}
+
+/****************************************************************
+      Styling tag section bar
+****************************************************************/
+
+.header_text{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #fff;
+    -moz-box-shadow: inset 0 -10px 10px -10px #000000;
+    -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
+    box-shadow: inset 0 -10px 10px -10px #000000;
+}
+
+/****************************************************************
+      Styling crousel section
+****************************************************************/
+.featured-carousel .card{
+  background-color: #eee;
+  margin-left: 10px;
+  height: 300px;
+  width: 170px;
+  border: 2px solid #eee;
+  text-align: center;
+}
+
+.craousel-featured{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.craousel-featured h4 strong{
+  color: #d70004;
+}
+.featured-carousel .card h4{
+  color: #d70004;
+  font-size: 12px;
+}
+.featured-carousel .card:hover{
+  background-color: #d70004;
+  border: 2px solid #d70004;
+  color: white;
+}
+
+
+/****************************************************************
+      Styling icon section
+****************************************************************/
+
+.second-container{
+text-align: center;
+}
+
+.second-container p{
+color: #444444;
+}
+
+.second-container .second-pane{
+padding: 20px;
+}
+
+.second-container .second-pane h4{
+  font-weight: normal;
+}
+
+.second-container .second-pane .icon-small{
+height: 85px;
+width: 85px;
+margin: 0 auto;
+margin-bottom: 10px;
+border-radius: 50%;
+border: solid 2px #d70004;
+align-items: center;
+align-content: center;
+background-color: #d70004;
+}
+
+.icon-main{
+margin: 25% auto;
+color: #fff;
+font-size: 40px !important;
+}
+
+
+/****************************************************************
+      Styling manufactures section
+****************************************************************/
+.out-clients{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  text-transform: uppercase;
+}
+.manufactures-section-list{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+/****************************************************************
+      Styling footer section
+****************************************************************/
+
+.footer-1{
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #242424;
+    border-top: 1px solid #ddd;
+    color: #777;
+    padding: 10px 10px;
+}
+
+.footer-1 h4{
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
+  margin: 10px 0 18px;
+}
+
+.footer-1 .logo{
+  margin-top: 10px;
+    width: 120px;
+}
+
+.footer-1 .nav-list{
+  color: #fff;
+  list-style-type: none;
+  padding: 5px !important;
+
+}
+
+.footer-1 .nav-list li{
+  padding-top: 10px !important;
+}
+
+.footer-1 .nav-list ::before{
+  content: " > ";
+}
+
+
+.footer-1 .posts .post a{
+  text-indent: 15px;
+    color: #fff;
+}
+
+.footer-1 .posts .post a:hover{
+    color: #999;
+}
+
+.footer-1 .posts .post {
+    overflow: hidden;
+    margin: 0 0 0px 0;
+    border-bottom: 1px dotted #333;
+    padding: 5px 0;
+}
+
+.footer-1 .posts .post:last-child{
+  border-bottom: none;
+}
+
+.footer-1 .social-icons{
+  margin: 0 20%;
+
+}
+.footer-1 .social-icons .social-logo i{
+  padding: 0px 10px;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.footer-1 .social-icons .social-logo i:hover{
+  transform: scale(1.8);
+}
+/****************************************************************
+      Styling footer-2 section
+****************************************************************/
+.footer-2{
+    background-color: #111111;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}

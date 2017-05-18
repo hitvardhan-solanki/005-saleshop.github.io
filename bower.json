@@ -1,0 +1,22 @@
+{
+  "name": "sale-shop",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Hitvardhan"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "OwlCarousel": "^1.3.2"
+  }
+}
